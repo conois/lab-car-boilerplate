@@ -1,1 +1,70 @@
 /* Los estilos de tu proyecto */
+/*Primera seccion */
+.taxiAmarillo{
+	background: url(../assets/images/taxi.jpg);
+	height: 700px;
+	width: 100%;
+	background-size: cover;
+	background-position: 25% 95%;
+	margin-top: -1.4em;
+	clear: both;
+}
+.disfrutaViaje{
+	background: #F7B617;
+	color: white;
+	height: 28.5em; 
+	margin-top: 12em;
+}
+
+.disfrutaViajeMovil{
+	height: 18em;
+	margin-top: 22em;
+}
+
+.disfrutaViaje h1{
+	font-weight: 500;
+	margin-left: 1em;
+	margin-top: 1em;
+
+}
+.disfrutaViaje h3{
+	margin-left: 1.5em;
+}
+.disfrutaViaje h3 div{
+	margin-left: 1em;
+	display: inline-block;
+	height: 1.15em;
+	width: 5.25em;
+	background-image: url(../assets/images/logoBlanco.png);
+}
+.disfrutaViaje button {
+	margin-left: 1.9em;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-top: 0.8em;
+}
+.disfrutaViaje hr{
+	margin-left: 3em;
+	width: 8.1em;
+	display: inline-block;
+	margin-right: 3em;
+}
+.disfrutaViaje p {
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 0;
+}
+
+.logoBlanco{
+	background: url(../assets/images/logoBlanco.png);
+	height: 2em;
+	background-size: cover;
+	background-position: center;
+}
+
+/*Segunda seccion*/
+
+.phone{
+	background-color: #F7B617;
+	height: 28.5em;
+}
