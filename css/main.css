@@ -2,14 +2,8 @@
 *{
 	overflow-x: hidden;
 }
-
-body{
-	overflow-y: hidden;
-}
 /*Primera seccion */
-nav{
-	height: 4em;
-}
+
 .taxi{
 	background: url(../assets/images/taxi.jpg);
 	height: 700px;
@@ -33,6 +27,7 @@ nav{
 }
 
 .disfrutaViaje h1{
+	overflow-y: hidden;
 	font-weight: 500;
 	margin-left: 1em;
 	margin-top: 1em;
@@ -44,7 +39,7 @@ nav{
 .disfrutaViaje h3 div{
 	margin-left: 1em;
 	display: inline-block;
-	height: 1.3em;
+	height: 1.15em;
 	width: 5.25em;
 	background-image: url(../assets/images/logoBlanco.png);
 }
@@ -144,7 +139,7 @@ nav{
 	color: white;
 }
 .tarifasDos{
-	margin-top: 6em;
+	margin-top: 4em;
 	/*outline: 1px solid white;*/
 	height: inherit;
 }
@@ -160,11 +155,14 @@ nav{
 	/*outline: 2px solid white;*/
 	height: 3em;
 }
+.inputDiv span{
+	overflow-y: hidden;
+}
 .myinput{
 	background: none;
 	border: 1px solid white;
 	border-radius: 5px;
-	margin-left: 2em;
+	margin-left: 1em;
 	padding: .5em 1em .5em 1em;
 }
 
@@ -180,18 +178,123 @@ nav{
 }
 
 .mapa iframe{
-	margin: .5em .5em .5em .5em;
+	margin-top: 1em;
+	margin-left: 1.3em;
 }
 
+/*4ta version movil*/
+/*Cuarta Seccion*/
+.tarifasMovil{
+	height: 55em;
+	background-color: #F7B617;
+	color: white;
+}
+.tarifasDosMovil{
+	margin-top: 4em;
+	/*outline: 1px solid white;*/
+	height: inherit;
+}
+.tarifasDosMovil h4{
+	margin-top: 1.6em;
+}
+
+.tarifasDosMovil button{
+	margin-top: 2em;	
+}
+.inputDivMovil{
+	margin-top: 1.6em;
+	/*outline: 2px solid white;*/
+	height: 3em;
+}
+.inputDivMovil span{
+	overflow-y: hidden;
+}
+.myinput{
+	background: none;
+	border: 1px solid white;
+	border-radius: 5px;
+	margin-left: 1em;
+	padding: .5em 1em .5em 1em;
+}
+
+.glyphicon{
+	font-size: 1.3em;
+	padding-top: .3em;
+}
+
+.mapamovil{
+	margin-top: 1.5em;
+	border:1px solid white;
+	height: inherit;
+}
+.cajaMapa{
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+
+}
+.mapa iframe{
+	margin-top: 1em;
+	margin-left: .6em;
+}
+
+/* 5seccion footer */
 footer{
 	background: #2B2B2B;
-	height: 80em;
+	height: 40em;
 }
 
 .logoblanco{
 	background: url(../assets/images/logoBlanco.png);
+	background-size: initial;
+	background-repeat: no-repeat;
+	background-position: 10%;
+	height: 4em;
+	margin-top: 1em;
+}
+.alignement{
+	display: flex;
+	align-items: 	flex-end;
+}
+.social{
+	color:white;
+}
+.fa{
+	color: white;
+	font-size: 2em;
+	padding-left: 1em;
+}
+footer li {
+	color:white;
+	line-height: 2.5em;
+}
+
+.dowloadApp{
+	height: 3.6em;
+	background-image: url(../assets/images/appstore.png);
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: center;
-	height: 3em;
+	margin-bottom: 2em;
+}
+.googlePlay{
+	height: 3.5em;
+	background-image: url(../assets/images/enBadgeWebGeneric.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.copyright{
+	color:white;
+	font-size: 1em;
+}
+.lineMovil{
+	margin-left: 1em;
+}
+.fa-movil{
+	font-size: .5em;
+}
+.appStoreMovil{
+	margin-top: 3em;
+}
+ul{
+	padding-left: 0;
 }
