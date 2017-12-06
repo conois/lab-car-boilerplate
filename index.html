@@ -9,9 +9,11 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
+<div class="container">
 	 <section class="first-section row">
+	 <div class="container">
 		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container-fluid">
+			<div class="container">
 				<a href="#" class="navbar-brand">
 					<img src="assets/images/logoForma.png">
 				</a>
@@ -32,11 +34,13 @@
 				</div>
 			</div>
 		</nav>
+	</div>
+</section>
 
 <!--Primera seccion -->
-	<section class="taxiAmarillo row">
+	<section class="row">
 	<!--disfruta el viaje -->
-	<div class="container-fluid">
+	<div class="container taxi">
 		<div class="col-lg-5  pull-right disfrutaViaje hidden-xs ">
 			<h1>Disfruta el viaje <br> Eres dueño de tu tiempo </h1>
 			<h3>Viaja con <div></div></h3>
@@ -44,28 +48,89 @@
 			<p><hr>o bien<hr></p>
 			<button class="btn btn-default btn-lg">Conviertete en conductor</button>
 		</div>
-		<!--version movil -->
+		
+		<!--moviles -->
 		<div class="col-xs-10 pull-right disfrutaViaje disfrutaViajeMovil visible-xs">
 			<h1>Comienza a viajar con
 				<div>
 					<img src="assets/images/logoBlanco.png">
 				</div></h1>
 			<button class= "btn btn-default btn-lg">Descarga el app</button>
-		</div>
+		</div> 
 
+	</section> 
 	<!--segunda seccion -->
 	<section class="phone row">
 		<div class="container-fluid">
-			<div class="col-lg-4">
+			<div class="borderBox col-lg-10 col-xs-11 col-xs-push-1 col-lg-push-0">
+				<h3 class="visible-xs text-center "> La nueva app</h3>
+				<div class="col-lg-5 col-lg-offset-1 hidden-xs">
+					<img class="pad" src="assets/images/iPhone6Plus.png">
+				</div>
+				<div class="visible-xs col-xs-11 phoneimg"></div>
+				<div class="col-lg-4 hidden-xs pad">
+					<h3>Descarga la nueva app</h3>
+					<p> La version actualizada de LabCar está llena de nuevas funciones para llegar donde quieras aún más fácil y rápido</p>
+					<p>Solo con tocar un botón, un auto llega justo a tu ubicación.Súbete y no te preocupes: tu conductor sabe dónde ir</p>
+				</div>
 			</div>
-			<div>
-				<h3>Descarga la nueva app</h3>
-				<p> La version actualizada de LabCar está llena de nuevas funciones para llegar donde quieras aún más fácil y rápido</p>
-				<p>Solo con tocar un botón, un auto llega justo a tu ubicación,Súbete y no te preocupes: tu conductor sabe dónde ir</p>
+			<div class="visible-xs mensajePie col-xs-8"><p> Llega a tu destino aun mas rápido</p>
+			</div>
+	</div> 
+</section> 
+
+<!--Tercera seccion -->
+<section class="row sectionConduce">
+	<div class="container-fluid">
+		<div class="conduce col-lg-4 col-xs-12 col-lg-offset-8">
+				<h2>Conduce cuando quieras</h2>
+				<h4 class="col-lg-11 col-xs-11">LabCar es una opcion flexible para alcanzar tus metas financieras</h4>
+				<button class="btn btn-lg">Conviertete en Conductor</button>
+		</div>
+	</div>
+</section>
+<!--cuarta seccion -->
+<section class=" tarifas row">
+	<div class="container-fluid row ">
+		<div class="col-lg-5 col-lg-offset-1 col-xs-11 col-xs-offset-1 tarifasDos">
+			<h2>Tarifas</h2>
+			<h4>Consulta las tarifas de LabCar aquí</h4>
+			<div class="inputDiv">
+				<span class="glyphicon glyphicon-record col-xs-2 col-lg-2"></span>
+				<input type="text" name="partida" class="myinput col-lg-6 col-xs-8" placeholder="Ingrese su punto de partida">
+			</div>
+
+			<div class="inputDiv">
+				<span class="	glyphicon glyphicon-chevron-right col-xs-2 col-lg-2"></span>
+				<input type="text" name="destino" class="myinput col-lg-6 col-xs-8" placeholder="Ingrese su destino aquí">
+			</div>
+
+			<button class="btn btn-default btn-lg text-uppercase col-lg-5 col-lg-offset-3">¡Trazar ruta!</button>
+
+		</div>
+		
+			<div class="mapa col-lg-5">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d4974.27025541367!2d-71.20963961341053!3d-33.6849525874674!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1512486986961" width="450" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+				
+			</div>
+	</div>
+</section>
+
+<footer class="row">
+		<div class="container-fluid">
+			<div class="logoblanco col-lg-12 "></div>
+			<hr>
+			<div class="row">
+				<div class="col-lg-12"></div>
+				<div class="col-lg-12"></div>
+				<div class="col-lg-12"></div>
+				<div class="col-lg-12"></div>
 			</div>
 		</div>
+	
+</footer>
 </div>
-</section>
+
 
 
 
