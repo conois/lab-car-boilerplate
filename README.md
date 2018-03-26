@@ -1,6 +1,6 @@
 # lab-car-boilerplate
 Proyecto que consiste en la maquetación de un sitio web de promoción del servicio de transporte privado. 
 
-![Labcar](https://drive.google.com/file/d/1WBfrFCP5pa40qouZ_B7kwdT47vI5Ow-c/view?usp=sharing "Lab Car")
+![LabCar](https://user-images.githubusercontent.com/32285659/37907974-f8b2ac42-30dc-11e8-9714-713711dee14c.png)
 
 Desarrollado para Laboratoria
